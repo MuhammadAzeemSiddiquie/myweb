@@ -1,0 +1,552 @@
+
+
+/* Fonts Change all layout */
+*{
+    font-family:Arial, Helvetica, sans-serirf
+    }
+
+
+/* Top Social Bar Icons wtih Buttons     */
+.socialbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    background-color: black;
+
+}
+
+.millionhad{
+  font-weight: bold;
+  color: blanchedalmond;
+}
+
+.buttons{
+  font-size: 12px;
+}
+
+.icons, .millionhad, .buttons{
+    padding: 10px;
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 40px;
+  width: 18px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 70%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: #40e02a;
+  color: white;
+}
+
+
+/* .facebook:hover{
+  background-color: chartreuse;
+} */
+
+.ukdonor, .donatenow, .smitresults{
+  font-weight: bold;
+  color: black;
+  background-color: whitesmoke;
+  cursor: pointer;
+  padding: 6px;
+  width: 100px;
+  margin: 5px;
+}
+
+.ukdonor:hover{
+  background-color: rgb(43, 226, 195);
+  color: black;
+}
+
+.donatenow:hover{
+  background-color: rgb(43, 226, 195);
+  color: black;
+}
+
+.smitresults:hover{
+  background-color: rgb(43, 226, 195);
+  color: black;
+}
+
+/* Navigation Bar With Logo Style */
+
+.logonav{
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: white;
+  align-items: center;
+}
+
+.Saylanilogo{
+  position: relative;
+  width: 280px;
+}
+
+.logo{
+  width: 400px;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 900px;
+  scroll-snap-type: initial;
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#4CAF50;
+  color:white;
+  border-radius: 10px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 10px;
+}
+
+img{
+  width: 100%;
+}
+
+.Headerpics{
+  display: flex;
+  /* border: 10px solid white; */
+  align-items: center;
+  max-width: 1565px;
+  min-width: 200px;
+}
+
+/* Marquee Text Slide */
+
+.textslidecontrol{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1565px;
+  min-width: 200px;
+}
+
+
+.textslide{
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  width: 1400px;
+  height: 28px;
+  background-color: lightgreen;
+
+}
+
+
+/* Paragraphs with Header */
+
+.contant{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: justify;
+  font-weight: bold;
+  color: rgb(88, 88, 88);
+  background-color: rgb(240, 240, 240);
+}
+
+.introheading{
+  font-size: 20px;
+  color: darkgreen;
+  height: 100px;
+}
+
+.logo2{
+  align-items: center;
+  width: 50px;
+}
+
+.paragraphs{
+  font-size: 15px;
+  line-height: 200%;
+  min-width: 200px;
+  max-width: 1000px;
+}
+
+/* monthly economy bar */
+
+.monthly-economy{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+/* kitchen container DIV */
+
+.kitchen-container, .family-container, .medical-container, .education-container{
+  width: 300px;
+  padding: 30px;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.kitchen-logo, .family-logo, .medical-logo, .education-logo{
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.rate-one, .rate-two, .rate-three, .rate-four{
+  font-family: 'Times New Roman';
+  font-size: 50px;
+  color: white;
+}
+
+.dly-DTKN, .fmly-adptn, .mdcl, .edctn{
+  font-weight: bold;
+}
+
+/* WHAT WE ARE DOING? */
+
+.doing-container{
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.logo3{
+  width: 50px;
+}
+
+/* Six Icon Place DIV */
+
+.Three-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  min-width: 200px;
+}
+
+.doing-heading{
+  font-size: 20px;
+}
+
+.ONLINE-SADQAH{
+  margin-top: 35px;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-width: 200px;
+  max-width: 400px;
+}
+
+.SADQAH-logo{
+  padding: 20px;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+}
+
+.SADQAH-logo:hover{
+  opacity: 50%;
+  padding: 20px;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+}
+
+.Heading{
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(131, 194, 38);
+  padding: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* mission-container DIV */
+
+.div-control{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+  min-width: 200px;
+}
+
+.div-left{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px;
+  width: 850px;
+  border-radius: 15px;
+}
+
+.mission-heading{
+  align-items: center;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  color: black;
+  /* margin-right: 140px; */
+  font-weight: bold;
+  border-bottom: 4px solid rgb(115, 180, 245);
+  border-radius: 8px;
+}
+
+.box{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  width: 380px;
+  background-color: rgb(238, 238, 238);
+}
+
+.box:hover{
+  padding: 1opx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  width: 350px;
+  background-color: rgb(67, 164, 255);
+}
+
+.all-icons{
+  align-items: center;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.all-icons:hover{
+  opacity: 50%;
+  align-items: center;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.Heading2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.div-Right{
+  padding: 40px;
+  /* margin-top: 155px; */
+  width: 400px;
+  border-radius: 15px;
+}
+
+.Upcoming-heading{
+  margin-bottom: 20px;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  color:black;
+  /* margin-right: 140px; */
+  font-weight: bold;
+  background-color: white;
+  border-bottom: 4px solid rgb(115, 180, 245);
+  border-radius: 8px;
+}
+
+.Upslide{
+  color: rgb(122, 122, 122);
+}
+
+/* Image-Gallery DIV */
+
+.gallery-container{
+  /* padding: 100px; */
+  align-items: center;
+}
+
+.image-gallery{
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.image5control{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.image-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 250px;
+  border: 2px solid white;
+}
+
+.image-box:hover{
+  opacity: 25%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 250px;
+  border: 2px solid white;
+}
+
+/* contact-us div */
+
+.contact-us{
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: white;
+  background-color: rgb(36, 122, 202);
+  top: auto;
+  /* border: 2px solid red; */
+}
+
+.Three-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+}
+
+.First-part{
+  width: 450px;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.Second-part{
+  width: 300px;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.Third-part{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+  width: 300px;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.icon-png{
+  padding: 5px;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-png:hover{
+  opacity: 25%;
+  width: 60px;
+  height: 60px;
+}
+
+.Useful{
+  border-bottom: 2px solid white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.contact-with{
+  border-bottom: 2px solid white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.copyright{
+  font-size: 15px;
+  font-weight: bold;
+  padding: 25px;
+  color: white;
+  background-color: rgb(26, 88, 146);
+}
